@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="AppModelNews"
+            type="com.example.bridegroomed.model.Category" />
+
+        <variable
+            name="recyclerModel"
+            type="com.example.bridegroomed.viewmodel.RecyclerModel" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="2dp"
+        android:id="@+id/card_id"
+        app:cardElevation="2dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/images"
+                android:scaleType="fitXY" />
+
+           <!-- <TextView
+                android:id="@+id/appName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:minWidth="100dp"
+                android:padding="10dp"
+                android:text="@{AppModelNews.name}"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/titel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:minWidth="100dp"
+                android:padding="10dp"
+                android:text="@{AppModelNews.add}"
+                android:textColor="#000000"
+                android:textSize="18sp" />-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:gravity="bottom"
+    android:paddingBottom="25dp"
+    android:background="#8F000000">
+
+            <TextView
+                android:id="@+id/titel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lauram Photography"
+                android:textColor="@color/white"
+                android:fontFamily="@font/canela_light"
+                android:layout_marginLeft="20dp"
+                android:letterSpacing="0.10"
+                android:textStyle="normal"
+                android:textSize="18sp" />
+
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginLeft="20dp"
+         android:layout_gravity="left">
+
+         <RatingBar
+             style="@style/RatingBar"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:numStars="5"
+             android:rating="3.5"
+             android:progressBackgroundTint="@color/colorPrimary"
+             android:progressTint="@color/colorPrimary"
+             android:secondaryProgressTint="@color/colorPrimary"
+             android:stepSize="0.5" />
+
+
+
+         <TextView
+             android:id="@+id/review"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="19 Reviews"
+             android:textAllCaps="true"
+             android:textColor="@color/white"
+             android:fontFamily="@font/apercu"
+             android:layout_marginLeft="5dp"
+             android:letterSpacing="0.10"
+             android:textStyle="normal"
+             android:textSize="10sp" />
+
+
+
+
+     </LinearLayout>
+
+
+
+
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TORONTO, CANADA"
+        android:textColor="@color/white"
+        android:fontFamily="@font/apercu"
+        android:layout_marginLeft="20dp"
+        android:letterSpacing="0.10"
+        android:textStyle="normal"
+        android:textSize="10sp" />
+
+
+</LinearLayout>
+
+
+
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+</layout>

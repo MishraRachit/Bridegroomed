@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">B&amp;G</string>
+
+    <string name="title_activity_splash">Splash</string>
+
+
+    //////////////login Screen //////////////////////
+    <string name="login">Log in</string>
+    <string name="emailaddress">EMAIL ADDRESS</string>
+    <string name="password">PASSWORD</string>
+    <string name="forgotyourpassword">FORGOT YOUR PASSWORD?</string>
+    <string name="lohin_buttion">LOGIN</string>
+    <string name="create_your_account">CREATE AN ACCOUNT</string>
+
+
+    ////////////createaccount//////////
+    <string name="createyoueaccount">Create Your Account</string>
+    <string name="full_name">FULL NAME</string>
+    <string name="confirmpassword">CONFIRM PASSWORD</string>
+
+    /////////Tell us About/////////
+    <string name="tellusabout">Tell us about yourself\n and your wedding</string>
+    <string name="selectyourrole">SELECT YOUR ROLE</string>
+    <string name="weddingdate">WEDDING DATE</string>
+    <string name="country">COUNTRY</string>
+    <string name="town_city">TOWN/CITY</string>
+    <string name="signup">SIGN UP</string>
+
+
+    <string name="title_activity_home">VENDORS</string>
+    <string name="title_home">PLANNING</string>
+    <string name="title_dashboard">GUEST LIST</string>
+    <string name="title_notifications">ACCOUNT</string>
+
+
+    //////////////home hadder//////////
+
+    <string name="findavender">FIND A VENDOR</string>
+    <string name="yourvendors">YOUR VENDORS</string>
+    <string name="fearures">Featured Vendors</string>
+    <string name="all_vendors">All Vendors</string>
+
+    ////////Planning//////////
+    <string name="chooseacetorory">Choose a Category</string>
+    <string name="checklist">Checklist</string>
+    <string name="budgeter">Budgeter</string>
+    <string name="timeline">Timeline</string>
+
+
+
+</resources>

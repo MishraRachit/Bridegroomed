@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="AppVrnderlist"
+            type="com.example.bridegroomed.model.Vrnderlist" />
+
+        <variable
+            name="recyclerModel"
+            type="com.example.bridegroomed.viewmodel.RecyclerModel" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="2dp"
+        android:id="@+id/list_card"
+        app:cardElevation="2dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+
+
+            <!-- <TextView
+                 android:id="@+id/appName"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="6dp"
+                 android:minWidth="100dp"
+                 android:padding="10dp"
+                 android:text="@{AppModelNews.name}"
+                 android:textColor="#000000"
+                 android:textSize="18sp" />
+
+
+             <TextView
+                 android:id="@+id/titel"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="6dp"
+                 android:minWidth="100dp"
+                 android:padding="10dp"
+                 android:text="@{AppModelNews.add}"
+                 android:textColor="#000000"
+                 android:textSize="18sp" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:padding="15dp"
+                >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lauram Photography"
+                    android:textColor="@color/bodytext"
+                    android:fontFamily="@font/apercu"
+                    android:letterSpacing="0.10"
+                    android:textStyle="normal"
+                    android:textSize="16sp" />
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.05dp"
+                android:layout_gravity="bottom"
+                android:background="@color/bodytext"/>
+        </FrameLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</layout>
